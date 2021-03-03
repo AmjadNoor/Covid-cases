@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+:root {
+  --ff-first: 'RocknRoll One', sans-serif;
+  --ff-second: 'Varela Round', sans-serif;
+  --c-1: #633039;
+  /* Light Brown */
+  --c-2: #E18868;
+  /* Light Marron */
+  --c-3: #DBD1C8;
+  /* Light grey */
+  --c-4: #343643;
+  /* Black */
+  --c-5: #AC8586;
+  /* light pink */
+}
+
+* {
+ margin: 0;
+ padding: 0;
+}
+
+body {
+  background-image: url(second.jpeg);
+  background-size: cover;
+  background-repeat: repeat-y;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+header h1 {
+  margin:.25em .5em auto auto;
+  color: var(--c-2);
+  font-family: var(--ff-first);
+  font-variant: small-caps;
+  font-size: 5rem;
+}
+
+.mContent {
+  text-align: center;
+  margin-top: 3em;
+}
+
+.mContent h2 {
+  font-family: var(--ff-second);
+  color: var(--c-4);
+  font-size: 4.5rem;
+}
+
+.live-cases {
+  font-family: var(--ff-first);
+  color: var(--c-1);
+  font-size: 3.5rem;
+  font-weight: 700;
+  text-align: center;
+  line-height: 2em;
+  margin-top: 3em;
+}
