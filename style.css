@@ -25,7 +25,7 @@
 body {
   background-image: url(second.jpeg);
   background-size: cover;
-  background-repeat: repeat-y;
+  background-repeat:no-repeat;
 }
 
 .header {
@@ -39,24 +39,24 @@ header h1 {
   color: var(--c-2);
   font-family: var(--ff-first);
   font-variant: small-caps;
-  font-size: 5rem;
+  font-size: 3rem;
 }
 
 .mContent {
   text-align: center;
-  margin-top: 3em;
+  margin-top: 2.5em;
 }
 
 .mContent h2 {
   font-family: var(--ff-second);
   color: var(--c-4);
-  font-size: 4.5rem;
+  font-size: 2rem;
 }
 
 .live-cases {
   font-family: var(--ff-first);
   color: var(--c-1);
-  font-size: 3.5rem;
+  font-weight:1.5rem;
   font-weight: 700;
   text-align: center;
   line-height: 2em;
