@@ -18,14 +18,14 @@
 }
 
 * {
- margin: 0;
- padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   background-image: url(second.jpeg);
   background-size: cover;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
 }
 
 .header {
@@ -35,7 +35,7 @@ body {
 }
 
 header h1 {
-  margin:.25em .5em auto auto;
+  margin: .25em .5em auto auto;
   color: var(--c-2);
   font-family: var(--ff-first);
   font-variant: small-caps;
@@ -56,7 +56,7 @@ header h1 {
 .live-cases {
   font-family: var(--ff-first);
   color: var(--c-1);
-  font-weight:1.5rem;
+  font-weight: 1.5rem;
   font-weight: 700;
   text-align: center;
   line-height: 2em;
